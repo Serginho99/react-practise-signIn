@@ -1,8 +1,8 @@
 {
-  "name": "react-practice-browser-route",
+  "name": "react-practise-signIn",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maxsavika.github.io/react-practice-browser-route/",
+  "homepage": "https://serginho99.github.io/react-practise-signIn/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
