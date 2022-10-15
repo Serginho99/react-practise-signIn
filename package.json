@@ -1,8 +1,8 @@
 {
-  "name": "react-practice-browser",
+  "name": "react-practice-browser-route",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://serginho99.github.io/react-practice-browser/",
+  "homepage": "https://maxsavika.github.io/react-practice-browser-route/",
   "dependencies": {
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
@@ -11,6 +11,7 @@
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.1.2",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router-dom": "^6.4.2",

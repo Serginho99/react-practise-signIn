@@ -5,6 +5,7 @@ import HomePage from 'pages/HomePage';
 import { Navigate, Route, Routes, useNavigate } from 'react-router-dom';
 import { AuthContext } from 'components/AuthContext/AuthContext';
 import { useContext, useEffect } from 'react';
+import Modal from 'components/Modal/Modal';
 
 export default function Router() {
   const { user } = useContext(AuthContext);
@@ -23,7 +24,10 @@ export default function Router() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HomePage />} />
-        <Route path="gallery" element={<GalleryPage />} />
+        <Route path="gallery" element={<GalleryPage />}>
+          <Route path="modal" element={<Modal />} />
+          {/* <Route path=':id/modal' element={<Modal />}/> */}
+        </Route>
         <Route path="auth" element={<AuthPage />} />
       </Route>
       <Route path="*" element={<Navigate to="/" />} />
